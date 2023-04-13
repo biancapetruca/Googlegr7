@@ -60,7 +60,7 @@
 x = input('> ')
 try:
     x = int(x)
-    print('a value is:', a)
+    print('x value is:', x)
 except ValueError as e:
     print("Eroare de valoare", e)
 except NameError as e:
