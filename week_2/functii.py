@@ -33,8 +33,8 @@ def get_sum(a: int, b: int = 2, c: int = 3, *args, **kwargs) -> (int, int):
     print(args)
     print(kwargs, type(kwargs))
     for i in kwargs.values():
-        suma+= i
-        diferenta -=i
+        suma += i
+        diferenta -= i
     return suma, diferenta
 
 var1, var2 = get_sum(1, 4, 4, d=3, e=4, f=5)
