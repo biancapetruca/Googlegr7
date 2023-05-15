@@ -80,4 +80,4 @@ zi4.append(total_zi4)
 zi5.append(total_zi5)
 
 df = pd.DataFrame({'Nr. Crt': nr_crt, 'Judet': judet, '01.03': zi1, '02.03': zi2, '03.03': zi3, '04.03': zi4, '05.03': zi5})
-df.to_excel('covid_martie.xlsx')
+df.to_excel('covid_martie.xlsx', index=False)
